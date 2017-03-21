@@ -51,24 +51,34 @@ header {
     }
 }
 nav {
-    display: flex;
-
-    h3 {
-        font-family: 'Lora', serif;
-        text-align: center;
+    section {
+        // display: flex;
+        box-shadow: 5px 5px 12px #555;
         margin: 1em;
-    }
-    .onsale {
+        padding-right: 0;
+        padding-left: 0;
+        img {
+            align-self: center;
+        }
+        h3 {
+            font-family: 'Lora', serif;
+            text-align: center;
+            margin: 1em;
+        }
+        .onsale {
             @include titrearticle ($coloronsale)
-    }
-    .buy {
-        @include titrearticle ($colorbuy)
-    }
-    .sold {
-        @include titrearticle ($colorsoldout)
-    }
-
-    .price {
-        font-weight: bold;
+        }
+        .buy {
+            @include titrearticle ($colorbuy)
+        }
+        .sold {
+            @include titrearticle ($colorsoldout)
+        }
+        .price {
+            font-weight: bold;
+        }
+        p {
+            margin: 0 0.5em;
+        }
     }
 }

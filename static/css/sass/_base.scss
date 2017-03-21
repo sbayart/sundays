@@ -12,5 +12,6 @@ $colorsoldout: #8d9198;
 }
 @mixin titrearticle ($color) {
     text-transform: uppercase;
+    margin: 0.5em;
     color: $color;
 }

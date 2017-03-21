@@ -44,22 +44,32 @@ header {
     float: right;
     margin-right: 0.5em; }
 
-nav {
-  display: flex; }
-  nav h3 {
+nav section {
+  box-shadow: 5px 5px 12px #555;
+  margin: 1em;
+  padding-right: 0;
+  padding-left: 0; }
+  nav section img {
+    align-self: center; }
+  nav section h3 {
     font-family: 'Lora', serif;
     text-align: center;
     margin: 1em; }
-  nav .onsale {
+  nav section .onsale {
     text-transform: uppercase;
+    margin: 0.5em;
     color: #ffcc00; }
-  nav .buy {
+  nav section .buy {
     text-transform: uppercase;
+    margin: 0.5em;
     color: #dca461; }
-  nav .sold {
+  nav section .sold {
     text-transform: uppercase;
+    margin: 0.5em;
     color: #8d9198; }
-  nav .price {
+  nav section .price {
     font-weight: bold; }
+  nav section p {
+    margin: 0 0.5em; }
 
 /*# sourceMappingURL=style.css.map */
