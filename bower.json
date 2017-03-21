@@ -1,0 +1,20 @@
+{
+  "name": "sundays",
+  "authors": [
+    "solene <solenantoine@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boot#^3.3.7"
+  }
+}
