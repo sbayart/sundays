@@ -1,3 +1,43 @@
-
+header {
+  background-color: #281400;
+  color: #f8ffff;
+  padding-bottom: 0.7em; }
+  header nav {
+    background-color: #281400; }
+    header nav .navbar-header {
+      background-color: #281400; }
+      header nav .navbar-header .navbar-toggle {
+        background-color: #281400; }
+    header nav #myNavbar {
+      background-color: #281400; }
+      header nav #myNavbar li {
+        color: #f8ffff;
+        font-family: 'PT Sans', sans-serif; }
+  header h1 {
+    text-align: center;
+    margin: 0.8em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    padding: 0.5em; }
+  header h2 {
+    text-align: center;
+    margin: 0.8em;
+    font-weight: bold;
+    font-family: 'Lora', serif; }
+  header p {
+    text-align: center;
+    margin: 1em; }
+    header p a,
+    header p a:hover {
+      background-color: #a28f61;
+      color: #f8ffff;
+      text-transform: uppercase;
+      margin: 0.5em;
+      padding: 0.8em;
+      border-radius: 0.4em;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 0.7em;
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

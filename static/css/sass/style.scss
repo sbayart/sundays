@@ -1,0 +1,47 @@
+@import "base";
+
+header {
+    background-color: $colorh;
+    color: $colorw;
+    padding-bottom: 0.7em;
+    nav {
+        background-color: $colorh;
+        .navbar-header {
+            background-color: $colorh;
+            .navbar-toggle {
+                background-color: $colorh;
+            }
+        }
+        #myNavbar {
+            background-color: $colorh;
+            li {
+                color: $colorw;
+                font-family: 'PT Sans', sans-serif;
+            }
+        }
+    }
+    h1 {
+        @include titre;
+        text-transform: uppercase;
+        padding: 0.5em;
+    }
+    h2 {
+        @include titre;
+    }
+    p {
+        text-align: center;
+        margin: 1em;
+        a,
+        a:hover {
+            background-color: #a28f61;
+            color: $colorw;
+            text-transform: uppercase;
+            margin: 0.5em;
+            padding: 0.8em;
+            border-radius: 0.4em;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 0.7em;
+            text-decoration: none;
+        }
+    }
+}
