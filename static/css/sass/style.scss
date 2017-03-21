@@ -45,9 +45,9 @@ header {
             font-weight: bold;
         }
     }
-    i {
-        float: right;
+    p:last-child {
         margin-right: 0.5em;
+        text-align: right;
     }
 }
 nav {

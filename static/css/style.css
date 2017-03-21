@@ -40,9 +40,9 @@ header {
       font-size: 0.7em;
       text-decoration: none;
       font-weight: bold; }
-  header i {
-    float: right;
-    margin-right: 0.5em; }
+  header p:last-child {
+    margin-right: 0.5em;
+    text-align: right; }
 
 nav section {
   box-shadow: 5px 5px 12px #555;
