@@ -42,6 +42,33 @@ header {
             font-family: 'PT Sans', sans-serif;
             font-size: 0.7em;
             text-decoration: none;
+            font-weight: bold;
         }
+    }
+    i {
+        float: right;
+        margin-right: 0.5em;
+    }
+}
+nav {
+    display: flex;
+
+    h3 {
+        font-family: 'Lora', serif;
+        text-align: center;
+        margin: 1em;
+    }
+    .onsale {
+            @include titrearticle ($coloronsale)
+    }
+    .buy {
+        @include titrearticle ($colorbuy)
+    }
+    .sold {
+        @include titrearticle ($colorsoldout)
+    }
+
+    .price {
+        font-weight: bold;
     }
 }

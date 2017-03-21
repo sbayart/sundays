@@ -38,6 +38,28 @@ header {
       border-radius: 0.4em;
       font-family: 'PT Sans', sans-serif;
       font-size: 0.7em;
-      text-decoration: none; }
+      text-decoration: none;
+      font-weight: bold; }
+  header i {
+    float: right;
+    margin-right: 0.5em; }
+
+nav {
+  display: flex; }
+  nav h3 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin: 1em; }
+  nav .onsale {
+    text-transform: uppercase;
+    color: #ffcc00; }
+  nav .buy {
+    text-transform: uppercase;
+    color: #dca461; }
+  nav .sold {
+    text-transform: uppercase;
+    color: #8d9198; }
+  nav .price {
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

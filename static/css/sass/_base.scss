@@ -1,9 +1,16 @@
-$colorh:#281400;
-$colorw:#f8ffff;
+$colorh: #281400;
+$colorw: #f8ffff;
+$coloronsale: #ffcc00;
+$colorbuy: #dca461;
+$colorsoldout: #8d9198;
 
 @mixin titre {
     text-align: center;
     margin: 0.8em;
     font-weight: bold;
     font-family: 'Lora', serif;
+}
+@mixin titrearticle ($color) {
+    text-transform: uppercase;
+    color: $color;
 }
