@@ -42,8 +42,14 @@ header {
       font-weight: bold; }
   header p:last-child {
     margin-right: 0.5em;
-    text-align: right; }
+    text-align: right;
+    margin-right: 2em; }
 
+nav h3 {
+  font-family: 'Lora', serif;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em; }
 nav section {
   box-shadow: 5px 5px 12px #555;
   margin: 1em;
@@ -51,10 +57,6 @@ nav section {
   padding-left: 0; }
   nav section img {
     align-self: center; }
-  nav section h3 {
-    font-family: 'Lora', serif;
-    text-align: center;
-    margin: 1em; }
   nav section .onsale {
     text-transform: uppercase;
     margin: 0.5em;

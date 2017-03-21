@@ -48,22 +48,23 @@ header {
     p:last-child {
         margin-right: 0.5em;
         text-align: right;
+        margin-right: 2em;
     }
 }
 nav {
+    h3 {
+        font-family: 'Lora', serif;
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
     section {
-        // display: flex;
         box-shadow: 5px 5px 12px #555;
         margin: 1em;
         padding-right: 0;
         padding-left: 0;
         img {
             align-self: center;
-        }
-        h3 {
-            font-family: 'Lora', serif;
-            text-align: center;
-            margin: 1em;
         }
         .onsale {
             @include titrearticle ($coloronsale)
