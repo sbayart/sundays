@@ -51,29 +51,59 @@ nav h3 {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 1em; }
-nav section {
-  box-shadow: 5px 5px 12px #555;
-  margin: 1em;
-  padding-right: 0;
-  padding-left: 0; }
-  nav section img {
-    align-self: center; }
-  nav section .onsale {
-    text-transform: uppercase;
-    margin: 0.5em;
-    color: #ffcc00; }
-  nav section .buy {
-    text-transform: uppercase;
-    margin: 0.5em;
-    color: #dca461; }
-  nav section .sold {
-    text-transform: uppercase;
-    margin: 0.5em;
-    color: #8d9198; }
-  nav section .price {
-    font-weight: bold; }
-  nav section p {
-    margin: 0 0.5em; }
+nav article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  nav article section {
+    box-shadow: 5px 5px 12px #555;
+    margin: 1em;
+    padding-right: 0;
+    padding-left: 0; }
+    nav article section a,
+    nav article section a:hover {
+      text-decoration: none;
+      color: inherit; }
+      nav article section a img,
+      nav article section a:hover img {
+        align-self: center; }
+      nav article section a .onsale,
+      nav article section a:hover .onsale {
+        text-transform: uppercase;
+        margin: 0.5em;
+        color: #ffcc00; }
+      nav article section a .buy,
+      nav article section a:hover .buy {
+        text-transform: uppercase;
+        margin: 0.5em;
+        color: #dca461; }
+      nav article section a .sold,
+      nav article section a:hover .sold {
+        text-transform: uppercase;
+        margin: 0.5em;
+        color: #8d9198; }
+      nav article section a .price,
+      nav article section a:hover .price {
+        font-weight: bold; }
+      nav article section a p,
+      nav article section a:hover p {
+        margin: 0 0.5em; }
+nav #produit {
+  display: flex;
+  flex-wrap: wrap; }
+  nav #produit img {
+    margin: 1em;
+    display: inline-flex; }
+  nav #produit figure {
+    display: flex;
+    flex-direction: row; }
+    nav #produit figure img {
+      width: 30%; }
+  nav #produit p {
+    padding: 1em;
+    text-align: justify; }
+  nav #produit button {
+    margin: 2em; }
 
 footer {
   padding: 1em;
