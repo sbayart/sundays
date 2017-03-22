@@ -128,8 +128,16 @@ nav {
     .table-responsive {
         margin: 2em auto;
     }
-    #submit {
-        margin: auto;
+}
+main {
+    width: 100%;
+    form.form-group {
+        textarea:nth-child(5) {
+            width: 100%;
+        }
+        #submit {
+            margin: 1em;
+        }
     }
 }
 footer {

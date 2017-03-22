@@ -114,8 +114,13 @@ nav #produit p {
     margin-left: 2em; }
 nav .table-responsive {
   margin: 2em auto; }
-nav #submit {
-  margin: auto; }
+
+main {
+  width: 100%; }
+  main form.form-group textarea:nth-child(5) {
+    width: 100%; }
+  main form.form-group #submit {
+    margin: 1em; }
 
 footer {
   padding: 1em;
