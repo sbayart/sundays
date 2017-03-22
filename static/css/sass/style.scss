@@ -8,18 +8,18 @@ header {
         background-color: $colorh;
         .container-fluid {
             background-color: $colorh;
-                .navbar-header {
-                background-color: $colorh;
-                    .navbar-toggle {
-                    background-color: $colorh;
-                    }
-                }
             }
         #myNavbar {
             background-color: $colorh;
             li {
                 color: $colorw;
                 font-family: 'PT Sans', sans-serif;
+            }
+            a,
+            a:hover {
+                color: $colorw;
+                font-family: 'PT Sans', sans-serif;
+                background-color: $colorh;
             }
         }
     }
