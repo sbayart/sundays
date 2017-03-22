@@ -106,8 +106,14 @@ nav #produit figure {
 nav #produit p {
   padding: 1em;
   text-align: justify; }
-nav #produit button {
-  margin: 2em; }
+  nav #produit p span {
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.3em; }
+  nav #produit p button {
+    margin-left: 2em; }
+nav .table-responsive {
+  margin: 2em auto; }
 
 footer {
   padding: 1em;
@@ -117,7 +123,7 @@ footer {
   color: #f8ffff;
   font-family: 'Lora', serif; }
   footer section {
-    width: 45%;
+    width: 40%;
     margin: 1em; }
     footer section h5 {
       font-weight: bold;
@@ -145,6 +151,12 @@ footer {
 
   nav #produit figure img {
     width: 24%; }
+  nav #produit p span {
+    font-weight: bold;
+    text-align: right;
+    font-size: 2em; }
+  nav #produit p button {
+    margin: 0 7em; }
 
   footer {
     flex-wrap: nowrap; }
