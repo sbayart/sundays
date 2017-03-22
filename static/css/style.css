@@ -114,6 +114,8 @@ nav #produit p {
     margin-left: 2em; }
 nav .table-responsive {
   margin: 2em auto; }
+nav #submit {
+  margin: auto; }
 
 footer {
   padding: 1em;

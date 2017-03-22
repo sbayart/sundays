@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "bootstrap": "boot#^3.3.7",
-    "font-awesome": "Font-Awesome#^4.7.0"
+    "font-awesome": "Font-Awesome#^4.7.0",
+    "pwstrength-bootstrap": "https://github.com/ablanco/jquery.pwstrength.bootstrap.git#^2.0.8"
   }
 }
