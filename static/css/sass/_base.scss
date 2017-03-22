@@ -15,3 +15,8 @@ $colorsoldout: #8d9198;
     margin: 0.5em;
     color: $color;
 }
+
+@mixin nodecoration {
+    text-decoration: none;
+    color: inherit;
+}

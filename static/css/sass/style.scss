@@ -54,6 +54,11 @@ header {
     }
 }
 nav {
+    .i, a, a:hover {
+        text-align: right;
+        margin: 1em;
+        @include nodecoration;
+    }
     h3 {
         font-family: 'Lora', serif;
         text-align: center;
@@ -71,8 +76,7 @@ nav {
             padding-left: 0;
             a,
             a:hover {
-                text-decoration: none;
-                color: inherit;
+                @include nodecoration;
                 img {
                     align-self: center;
                 }
@@ -95,17 +99,17 @@ nav {
         }
     }
     #produit {
-        display: flex;
-        flex-wrap: wrap;
         img {
-            margin: 1em;
-            display:inline-flex;
+            margin: 1em auto;
+            width: 90%;
         }
         figure {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
             img {
-                width: 30%;
+                width: 45%
             }
         }
         p {
@@ -161,6 +165,15 @@ footer {
         p:last-child {
             text-align: right;
             margin-right: 2em;
+        }
+    }
+    nav {
+        #produit {
+            figure {
+                img {
+                    width: 24%;
+                }
+            }
         }
     }
     footer {

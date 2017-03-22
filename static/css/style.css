@@ -46,6 +46,11 @@ header {
     text-align: right;
     margin-right: 2em; }
 
+nav .i, nav a, nav a:hover {
+  text-align: right;
+  margin: 1em;
+  text-decoration: none;
+  color: inherit; }
 nav h3 {
   font-family: 'Lora', serif;
   text-align: center;
@@ -88,22 +93,21 @@ nav article {
       nav article section a p,
       nav article section a:hover p {
         margin: 0 0.5em; }
-nav #produit {
+nav #produit img {
+  margin: 1em auto;
+  width: 90%; }
+nav #produit figure {
   display: flex;
-  flex-wrap: wrap; }
-  nav #produit img {
-    margin: 1em;
-    display: inline-flex; }
-  nav #produit figure {
-    display: flex;
-    flex-direction: row; }
-    nav #produit figure img {
-      width: 30%; }
-  nav #produit p {
-    padding: 1em;
-    text-align: justify; }
-  nav #produit button {
-    margin: 2em; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  nav #produit figure img {
+    width: 45%; }
+nav #produit p {
+  padding: 1em;
+  text-align: justify; }
+nav #produit button {
+  margin: 2em; }
 
 footer {
   padding: 1em;
@@ -138,6 +142,9 @@ footer {
     header p:last-child {
       text-align: right;
       margin-right: 2em; }
+
+  nav #produit figure img {
+    width: 24%; }
 
   footer {
     flex-wrap: nowrap; }
